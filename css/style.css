@@ -1,0 +1,382 @@
+@charset "utf-8";
+/* CSS Document */
+* {
+	padding:0;
+	margin:0;
+	font-family:'Quicksand', sans-serif;
+}
+.kategori {
+	height: 689px;
+	background: url(https://wallpapercave.com/wp/akHTqZe.jpg);
+	background-size: cover;
+	margin-top: -70px;
+}
+.kategori h1 {
+	margin-top: -50px;
+	margin-bottom: 50px;
+	color: white;
+	border-bottom: solid 2px #FFC000;
+	width: 180px;
+	font-family: "Oswald", sans-serif;
+}
+.kategori .container {
+	padding-top: 200px;
+	width: 900px;
+}
+.kategori .container a {
+	background-color: #f8f8f8;
+}
+.product {
+	background-color: #fff;
+}
+.product .container {
+	width: 900px;
+}
+.product h1 {
+	color: rgb(0, 0, 0);
+	border-bottom: solid 2px #d49f00;
+	width: 180px;
+	font-family: "Oswald", sans-serif;
+	font-size: 30px;
+}
+.detail-img {
+	background: url(https://wallpapercave.com/wp/akHTqZe.jpg);
+	height: 100vh;
+	margin-top: -70px;
+	padding-top: 170px;
+}
+.register {
+	background: url(https://wallpapercave.com/wp/akHTqZe.jpg);
+	height: 100vh;
+	margin-top: -70px;
+	padding-top: 170px;
+}
+.register .container {
+	background: #fff;
+	width: 300px;
+	padding: 10px 10px 10px 10px;
+}
+.register input {
+	height: 30px;
+}
+.register input::placeholder {
+	font-size: 13px;
+}
+body {
+	background-color:#f8f8f8;
+}
+a {
+	color: inherit;
+	text-decoration:none;
+}
+#bg-login {
+	display: flex;
+	height: 100vh;
+	justify-content: center;
+	align-items: center;
+	background: url(https://wallpapercave.com/wp/akHTqZe.jpg);
+	font-size: 15px;
+}
+.box-login {
+	width: 300px;
+	min-height: 200px;
+	border:1px solid #ccc;
+	background-color: #fff;
+	padding:15px;
+	box-sizing:border-box;
+}
+.box-login h2 {
+	text-align:center;
+	margin-bottom:15px;
+}
+.input-control {
+	width:100%;
+	padding:10px;
+	margin-bottom:15px;
+	box-sizing:border-box;
+}
+.btn {
+	background-color: #FFC000;
+	cursor: pointer;
+	border-radius: 0px;
+}
+header {
+	background-color: #C70039;
+	color: #fff;
+}
+header h1 {
+	float:left;
+	padding:10px 0;
+}
+header ul {
+	float:right;
+}
+header ul li {
+	display:inline-block;
+}
+header ul li a {
+	padding:20px 0 20px 15px;
+	display: inline-block;
+}
+footer {
+	padding:25px 0;
+}
+.container {
+	width: 80%;
+	margin: 0 auto;
+}
+.container:after {
+	content:'';
+	display: block;
+	clear:both;
+}
+.section {
+	padding:25px 0;
+}
+.box {
+	background-color: #fff;
+	border:1px solid #ccc;
+	padding:15px;
+	box-sizing: border-box;
+	margin:10px 0 25px 0;
+}
+.box:after {
+	content: '';
+	display: block;
+	clear: both;
+}
+.table {
+	width: 100%;
+	border-collapse: collapse;
+}
+.table tr {
+	height: 30px;
+}
+.table  tr td {
+	padding:5px 10px;
+}
+.search {
+	padding:15px 0;
+	background-color: #fff;
+	border:1px solid #ccc;
+	text-align: center;
+}
+.search input[type=text] {
+	width: 60%;
+	padding:10px;
+}
+.search input[type=submit] {
+	padding:12px 15px;
+	background-color: #C70039;
+	color: #fff;
+	border:none;
+	cursor:pointer;
+}
+.col-5 {
+	background: #d49f00;
+	margin: 10px;
+	border-radius: 10px;
+	width: 150px;
+	height: 120px;
+	text-align: center;
+	float: left;
+	padding:10px;
+	box-sizing: border-box;
+	color: white;
+	font-size: 15px;
+	padding-top: 20px;
+}
+.col-5:hover {
+	background: #7a5c00;
+	margin: 10px;
+	border-radius: 10px;
+	width: 150px;
+	height: 120px;
+	text-align: center;
+	float: left;
+	padding:10px;
+	box-sizing: border-box;
+	color: white;
+	font-size: 15px;
+	padding-top: 20px;
+	transition: 0.3s ease-in-out;
+	transform: scale(0.9);
+}
+.col-4 {
+	width:270px;
+	float: left;
+	padding:10px;
+	box-sizing: border-box;
+	margin: 10px;
+	background-color: #fff;
+}
+.col-4:hover {
+	box-shadow: 0 0 3px #FFC000;
+}
+.col-4 img {
+	width: 100%;
+}
+.col-4 .nama {
+	font-family: "Oswald", sans-serif;
+	color: #000000;
+	font-size: 20px;
+}
+.col-4 .date {
+	font-family: "Oswald", sans-serif;
+	color: #000000;
+	font-size: 10px;
+}
+.col-4 .admin {
+	color: #FFC000;
+	font-size: 15px;
+}
+.footer {
+	padding:25px 0;
+	background-color: #333;
+	color: #fff;
+	text-align: center;
+}
+.footer p {
+	margin-bottom: 10px;
+}
+.footer small {
+	margin-top: 25px;
+	display: inline-block;
+}
+.col-2 {
+	width: 50%;
+	min-height: 200px;
+	padding:10px;
+	box-sizing: border-box;
+	float: left;
+}
+.col-2 img {
+	border:1px solid #f9f9f9;
+	padding:5px;
+	box-sizing: border-box;
+}
+.col-2 h3 {
+	margin-bottom: 10px;
+	font-size: 55px;
+	color: #fff;
+	font-family: "Oswald", sans-serif;
+}
+.col-2 h2 {
+	font-size: 20px;
+	color: #fff;
+	font-weight: 500;
+}
+.col-2 h4 {
+	font-size: 17px;
+	color: #FFC000;
+	font-weight: 500;
+}
+.col-2 p {
+	margin:15px 0;
+	text-align: justify;
+	line-height: 25px;
+	font-size: 14px;
+	color: #fff;
+}
+@media screen and (max-width: 768px) {
+	.container {
+		width: 90%;
+		}
+	.col-5 {
+		width:50%;
+		margin-bottom: 10px;
+	}
+	.col-4 {
+		width:50%;
+		height: 300px;
+	}
+	.col-2 {
+		width:100%;
+	}
+}
+.galeri {
+	background: url(https://wallpapercave.com/wp/akHTqZe.jpg);
+	background-size: cover;
+	height: 100vh;
+	margin-top: -70px;
+}
+.galeri .container {
+	padding-top: 200px;
+}
+.btn-second {
+	background-color: #FFC000;
+	width: 280px;
+	border: none;
+	color: #fff;
+	font-size: 17px;
+}
+.btn-second:hover {
+	background-color: #be8f00;
+	width: 280px;
+	border: none;
+	color: #fff;
+	font-size: 17px;
+	transition: .3s ease-in-out;
+}
+.btn-third {
+	background-color: #FFC000;
+	width: 268px;
+	border: none;
+	color: #fff;
+	font-size: 17px;
+	height: 39px;
+}
+.btn-third:hover {
+	background-color: #be8f00;
+	width: 268px;
+	border: none;
+	color: #fff;
+	font-size: 17px;
+	transition: .3s ease-in-out;
+	height: 39px;
+}
+.dashboard {
+	background: url(https://wallpapercave.com/wp/akHTqZe.jpg);
+	height: 100vh;
+	margin-top: -70px;
+	padding-top: 200px;
+}
+.dashboard .container {
+	background-color: #fff;
+	padding: 20px;
+}
+.profil {
+	background: url(https://wallpapercave.com/wp/akHTqZe.jpg);
+	margin-top: -70px;
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+.profil .container {
+	background-color: #fff;
+	padding: 20px;
+}
+.data-img {
+	background: url(https://wallpapercave.com/wp/akHTqZe.jpg);
+	margin-top: -70px;
+	padding-top: 200px;
+	padding-bottom: 100px;
+}
+.data-img .container {
+	background-color: #fff;
+	padding: 10px;
+}
+.data-img p {
+	color: green;
+	font-weight: 500;
+}
+.tambah-img {
+	background: url(https://wallpapercave.com/wp/akHTqZe.jpg);
+	margin-top: -70px;
+	padding-top: 100px;
+	padding-bottom: 100px;
+	height: 100vh;
+}
+.tambah-img .container {
+	background-color: #fff;
+	padding: 10px;
+}
